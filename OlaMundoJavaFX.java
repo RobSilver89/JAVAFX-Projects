@@ -20,7 +20,7 @@ public class OlaMundoJavaFX extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
-        
+        //Added a comment before object scene being created.
         Scene scene = new Scene(root);
         //First comment inserted here for github commiting
 	  // Added one more comment for testing github
