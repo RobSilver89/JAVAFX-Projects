@@ -23,6 +23,7 @@ public class OlaMundoJavaFX extends Application {
         
         Scene scene = new Scene(root);
         //First comment inserted here for github commiting
+	  // Added one more comment for testing github
         stage.setScene(scene);
         stage.show();
     }
