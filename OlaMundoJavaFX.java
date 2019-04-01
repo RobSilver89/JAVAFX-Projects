@@ -22,7 +22,7 @@ public class OlaMundoJavaFX extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
-        
+        //First comment inserted here for github commiting
         stage.setScene(scene);
         stage.show();
     }
